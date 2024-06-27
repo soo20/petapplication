@@ -1,4 +1,4 @@
-# Pet Care Information Project
+# Yuna Pet Application Project
 
 ## Project Overview
 
@@ -55,3 +55,7 @@ This project addresses the lack of accessible and detailed information about var
 ## Conclusion
 
 This project aims to bridge the gap in pet care knowledge by providing accessible information and tools for better pet health management. By leveraging technology and data-driven approaches, we strive to enhance the well-being and happiness of pets and their owners alike.
+
+## Note
+
+you will find the video of the project in the milestones folder
