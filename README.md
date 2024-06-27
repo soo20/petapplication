@@ -2,59 +2,42 @@
 
 ## Project Overview
 
-This project addresses the lack of accessible and detailed information about various pet species and their specific needs, aiming to improve pet care practices through comprehensive and easily accessible information.
-
-## Objectives
-
-1. **Pet Species Information:** Provide detailed and accessible information about various pet species, including their dietary needs, exercise requirements, and general care tips.
-2. **Skin Disease Detection in Dogs:** Develop a system to identify skin diseases in dogs, helping pet owners recognize signs early for prompt treatment.
-3. **Pet Care Reminders:** Implement features to remind pet owners of their responsibilities, ensuring no aspect of pet care is overlooked due to busy schedules.
-
-## Tools and Technologies
-
-- **Python:** Primary programming language for data processing and model development.
-- **Flask:** Web framework for building the application.
-- **HTML/CSS/JavaScript:** Frontend development for user interface and interactivity.
-- **Machine Learning (ML) Algorithms:** Used for skin disease detection in dogs.
-- **SQLite/MySQL:** Database management for storing pet care information and user data.
-- **Jupyter Notebook:** For data analysis and model training.
+This mobile application project aims to provide essential pet care information and tools to improve pet owners' management of their pets' health and well-being. Built using Flutter and Firebase, the app offers features for accessing pet species details, detecting skin diseases in dogs, and managing pet care schedules.
 
 ## Features
 
 1. **Pet Species Profiles:** Detailed profiles for various pet species, including dietary guidelines, exercise routines, and healthcare recommendations.
-2. **Skin Disease Identification:** A machine learning model to detect common skin diseases in dogs based on symptoms.
+   
+2. **Skin Disease Identification:** Utilizes machine learning to identify common skin diseases in dogs based on symptoms entered by users.
+
 3. **Pet Care Scheduler:** Reminders and notifications for feeding times, vet appointments, and grooming sessions to support busy pet owners.
 
-## Implementation Steps
+## Technologies Used
 
-1. **Data Collection and Processing:**
-   - Collecting and organizing information about pet species and their care requirements.
-   - Gathering datasets for training the skin disease detection model.
+- **Flutter:** Cross-platform framework for building mobile applications.
+- **Firebase:** Backend services for real-time data storage, authentication, and cloud functions.
+- **Machine Learning (ML):** Integrates ML models for skin disease detection within the mobile app.
+- **SQLite/MySQL:** Local and cloud databases for storing pet care information and user data.
 
-2. **Application Development:**
-   - Designing and developing a user-friendly interface to browse pet species profiles and enter symptoms for skin disease detection.
-   - Implementing backend functionalities for data storage and retrieval using Flask and databases.
+## Implementation Details
 
-3. **Machine Learning Model Training:**
-   - Preprocessing and cleaning data for training the skin disease detection model.
-   - Implementing machine learning algorithms (e.g., SVM, CNN) to classify skin diseases in dogs based on symptoms.
+1. **UI/UX Design:** Creating an intuitive and user-friendly interface using Flutter widgets and Material Design principles.
 
-4. **Integration and Testing:**
-   - Integrating all components and testing the application for functionality, usability, and accuracy of the skin disease detection model.
+2. **Backend Integration:** Setting up Firebase services for data storage, authentication, and notifications.
 
-5. **Deployment and Documentation:**
-   - Deploying the application on a web server.
-   - Documenting the project, including methodologies, technologies used, and instructions for future maintenance and updates.
+3. **Machine Learning Integration:** Developing and integrating machine learning models for skin disease detection in dogs.
 
-## Expected Outcomes
+4. **Testing and Deployment:** Conducting thorough testing to ensure functionality and performance across iOS and Android platforms. Deploying the app on respective app stores.
 
-- An informative platform providing comprehensive pet care information.
-- A reliable system for early detection of skin diseases in dogs, promoting timely treatment.
-- Improved pet care management for busy pet owners through automated reminders and notifications.
+## Future Enhancements
+
+- Integration of additional pet species information.
+- Enhancement of skin disease detection accuracy through continuous model refinement.
+- Implementation of community features for sharing pet care tips and experiences.
 
 ## Conclusion
 
-This project aims to bridge the gap in pet care knowledge by providing accessible information and tools for better pet health management. By leveraging technology and data-driven approaches, we strive to enhance the well-being and happiness of pets and their owners alike.
+The Pet Care Companion mobile app, powered by Flutter and Firebase, aims to enhance pet care management by providing informative resources and practical tools. It strives to support pet owners in maintaining their pets' health and happiness conveniently and effectively.
 
 ## Note
 
